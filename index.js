@@ -5,7 +5,7 @@ const path = require("path");
 const temppath = path.join(__dirname + "/tamplates")
 
 const app = express();
-app.set("views", temppath)
+app.set("views", temppath )   
 
 // to set the view enggine
 app.set('view engine','hbs');
